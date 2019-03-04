@@ -10,7 +10,7 @@
         <h1>Data Access Error!</h1>
         <div class="error">
             <c:if test="${!empty exceptionCode}">[${f:h(exceptionCode)}]</c:if>
-            <spring:message code="e.xx.fw.9002" />
+            <spring:message code="e.hs.fw.9002" />
         </div>
         <t:messagesPanel />
         <br>
