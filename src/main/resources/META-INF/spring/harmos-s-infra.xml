@@ -16,6 +16,6 @@
     </bean>
 
     <!-- scan for Mappers -->
-    <mybatis:scan base-package="com.nn.harmos.domain.repository" />
+    <mybatis:scan base-package="com.nn.harmos" />
 
 </beans>

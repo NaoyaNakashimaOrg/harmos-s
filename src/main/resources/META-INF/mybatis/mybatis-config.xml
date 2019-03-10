@@ -17,8 +17,7 @@
     </settings>
 
     <typeAliases>
-        <package name="com.nn.harmos.domain.model" />
-        <package name="com.nn.harmos.domain.repository" />
+        <package name="com.nn.harmos" />
 <!--
         <package name="com.nn.harmos.infra.mybatis.typehandler" />
 -->
