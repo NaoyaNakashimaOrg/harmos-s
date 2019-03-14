@@ -9,8 +9,11 @@
 
     <import resource="classpath:/META-INF/spring/harmos-s-domain.xml" />
 
-    <bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
-
+    <bean id="passwordEncoder"
+          class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" >
+    	<constructor-arg name="strength" value="11" />
+    </bean>
+    
     <context:property-placeholder
         location="classpath*:/META-INF/spring/*.properties" />
 
